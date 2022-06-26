@@ -8,7 +8,7 @@ Create a REST API in Laravel which has the OAuth2 authentication module which in
 
 Laravel, PHP
 
-** Setup Guid for front end ***
+** Setup Guid for back end ***
 
 - 01: firstly we have to create a mysql database and the name of the database should be added to .env file
 
