@@ -18,9 +18,9 @@ Laravel, PHP
 
 - 04: ``` php artisan migrate ```
 
-- 04: ``` php artisan db:seed ```
+- 05: ``` php artisan db:seed ```
 
-- 05: ``` php artisan passport:client ```
+- 06: ``` php artisan passport:client ```
 
 this command will ask few questions and the answers should be given like below detail
 
