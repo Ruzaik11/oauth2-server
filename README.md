@@ -22,6 +22,7 @@ Laravel, PHP
 
 - 06: ``` php artisan passport:client ```
 
+
 The number 06 command will prompt few questions and the answers should be given like below given
 
 - Which user ID should the client be assigned to? 1
@@ -29,5 +30,7 @@ The number 06 command will prompt few questions and the answers should be given 
 - Where should we redirect the request after authorization? http://localhost:8080/callback
 
 The newly generated  Client ID and Client secret are required for the front end client setup
+
+- 07: finally ``` php artisan serve ``` to run the project server 
 
 That's it we are now ready to start using the OAuth2 backend ⭐
