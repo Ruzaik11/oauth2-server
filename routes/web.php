@@ -18,21 +18,3 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::get('/redirect', function () {
-    $query = http_build_query([
-        'client_id' => '4',
-        'redirect_uri' => 'http://exetel-server.local/callback',
-        'response_type' => 'code',
-        'scope' => '',
-    ]);
-
-    return redirect('http://exetel-server.local/oauth/authorize?'.$query);
-});
-
-Route::get('/callback', function () {
-   dd("cool");
-});
-
